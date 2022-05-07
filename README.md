@@ -1,2 +1,1 @@
-Welcome to my landing page!!
-Explore my gallery!
+Welcome to my landing page!! </br> Explore the gallery!
