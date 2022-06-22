@@ -88,8 +88,8 @@ body {
 ul {
     list-style: none;
     display: flex;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     gap: 20px;
 }
 
@@ -112,6 +112,7 @@ nav ul {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 #hero-left h1 {
@@ -131,19 +132,19 @@ nav ul {
 
 #hero-right {
     display: flex;
-    padding: 1rem 5rem 7rem
-    
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
 #hero-right img {
     flex: 1;
     object-fit: cover;
-    max-height: calc(1rem+200px);
-    border-radius: 7px;
-    
+    border-radius: 10px;
+    width: 500px;
   }
 
-#btn {
+.btn {
     background-color: #F7882F;
     color: white;
     border-radius: 7px;
@@ -184,16 +185,16 @@ h2 {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 70px;
+    gap: 4rem;
 }
 
 .info {
     font-style: italic;
-    max-width: 250px;
+    max-width: 500px;
     height: auto;
 }
 .info:hover{
-    transform: scale(1.5);
+    transform: scale(1.4);
 }
 
 .center {
@@ -201,44 +202,47 @@ h2 {
 }
 
 /* Third part */
-
 .wrapper_third {
+    background-color: #F7882F;
     display: flex;
     flex-direction: column;
-    /*padding: 7rem 9rem 7rem;*/
+    gap: 4rem;
+    padding: 0;
 }
+
 #bgimg{
     background-image: url(https://cdn.pixabay.com/photo/2013/08/28/12/03/plumage-176723_960_720.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    }
+}
 
 h3 {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    text-align: left;
-    color: #f2f3f5;
-    padding: 7rem 7rem 1rem;
+    text-align: center;
+    color: #cdfaf0;
+    padding: 1rem;
 }
 
 .wrapper_third p {
-    text-align: right;
-    font-size: 20px;
-    font-weight: bolder;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
     color: #f2f3f5;
-    padding: 1rem 15rem 3rem;
+    padding: 0;
 
 }
 
 /*Fourth part*/
 
 .wrapper_fourth {
-    background-color: white;
+    background-color: #F7882F;
     display: flex;
     flex-direction: column;
     padding: 3rem 3rem 3rem;
-    
+    gap: 4rem;
 }
 
 #box {
@@ -249,36 +253,23 @@ h3 {
     justify-content: space-around;
     color: white;
     flex: 1;
-
-
-    }
+    gap: 2rem;
+    padding: 1rem;
+}
 
 h4 {
     font-size: 20px;
     margin: 0;
     font-weight: bold;
-    padding: 2rem 5rem 0rem;
+    padding: 2rem 5rem 0;
 }
 
 #box p {
     font-size: 16px;
     margin-top: 0;
-    padding: 0rem 5rem 1rem;
+    padding: 0 5rem 1rem;
 }
 
-#signup2 {
-    display: flex;
-    background-color: #c5e78b;
-    font-size: 16px;
-    color: black;
-    font-weight: bolder;
-    border-color: #c5e78b;
-    border: solid #c5e78b;
-    outline: none;
-    border-radius: 7px;
-    padding-inline: 2rem;
-    padding-block: 7px;
-}
 
 /*Footer*/
 footer {
